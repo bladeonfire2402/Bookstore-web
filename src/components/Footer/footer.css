@@ -1,0 +1,19 @@
+.footer{
+    background-color: var(--primary-color);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    cursor: pointer;
+    
+}
+.footer__copyright{
+    margin-top: 50px;
+}
+.text-color-opacity{
+    color: #b9beed;
+    opacity: 0.6;
+}
+@media only screen and (max-width:576px){
+    
+   
+  
+}

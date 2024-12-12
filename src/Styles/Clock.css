@@ -1,0 +1,37 @@
+@media only screen and (max-width:992px){
+    .timmer__count h2{
+        font-size: 1.4rem;
+    }
+    .clock__wrapper{
+        font-size: 0.8rem;
+    }
+    .clock__data{
+        font-size: 0.8rem;
+    }
+    .counter__img{
+        right: 10%;
+    }
+}
+@media only screen and (max-width:768px){
+    .timmer__count h2,.timmer__count h3{
+        font-size: 1.2rem;
+    }
+    .counter__img img{
+        height: 150px;
+    }
+    .timmer__count{
+        height: inherit;
+    }
+   
+  
+}
+@media only screen and (max-width:576px){
+    .timmer__count h2, .timmer__count h3{
+        font-size: 0.7rem;
+    }
+    .counter__img img{
+        height: 100px;
+    }
+   
+  
+}

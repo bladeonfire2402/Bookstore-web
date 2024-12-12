@@ -1,0 +1,51 @@
+.login__section{
+    justify-content: space-between;
+    background-color: var(--primary-color);
+}
+.login__container{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.login__form .auth__form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    
+}
+.form__group{
+    width: 80%;
+}
+.form__group input{
+    border: 1 solid #fff;
+}
+.login__btn{
+    padding: 8px;
+    background-color: #fff;
+    color: var(--primary-color);
+    border-radius: 5px;
+    width: 10%;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.login__form{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.auth__form input[type="file"]{
+    color: #fff;
+    cursor: pointer;
+}
+.signup__btn{
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bold;
+    font-size: 1rem;
+
+}

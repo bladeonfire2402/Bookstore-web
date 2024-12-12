@@ -1,0 +1,13 @@
+.common__section{
+    background: linear-gradient(#000000a2,#000000b7),url("../assets/images/thu_vien.jpg") no-repeat center center;
+    background-size: cover;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0
+}
+.common__section h1{
+    color: #fff;
+    font-weight: 600;
+}

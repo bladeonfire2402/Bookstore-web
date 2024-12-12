@@ -1,0 +1,49 @@
+.Check__Out{
+    display: flex;
+    justify-content: center;
+   
+}
+.personal{
+    width: 70%;
+    
+}
+.form__group{
+    display: flex;
+    gap: 20px;
+}
+.form__group input{
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px ;
+    border: 0.5px solid #8e8989;
+
+    
+}
+.Check__Out_Price{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: var(--primary-color);
+    padding: 20px;
+    height: 180px;
+    border-radius: 5px;
+    
+}
+.Checkout_item{
+    display: flex;
+    justify-content: space-between;
+}
+.check__out_btn{
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    color:var(--primary-color);
+    border-radius: 5px;
+    
+
+}
+.check__out_btn:hover{
+
+
+}

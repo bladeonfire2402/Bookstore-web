@@ -1,0 +1,169 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap");
+
+/*  css variables */
+:root {
+  --card-bg-01: #fdefe6;
+  --card-bg-02: #d6e5fb;
+  --card-bg-03: #ceebe9;
+  --card-bg-04: #e2f2b2;
+  --primary-color: #0a1d37;
+  --hero-bg: #d6e5fb;
+  --heading-fontSize: 2rem;
+  --small-text-color: #999;
+  --heading-text-color: #0a1d37;
+  
+}
+
+/* reset browser default */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  color: var(--small-text-color);
+  font-size: 1rem;
+}
+
+h1,
+h2 {
+  font-size: var(--heading-fontSize);
+}
+
+ul {
+  list-style: none;
+}
+.button{
+  padding: 20px 30px;
+  background-color: var(--primary-color);
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 10px;
+}
+a {
+  text-decoration: none;
+  color: unset;
+}
+section{
+ padding: 60px 0;
+}
+.text__center{
+  text-align: center;
+}
+.section__title{
+  color: var(--primary-color);
+  font-weight: 600;
+}
+.pad8{
+  padding-left: 8%;
+  padding-right: 8%;
+}
+.pad4{
+  padding-left: 4%;
+  padding-right: 4%;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.flex2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+.flex0{
+  display: flex;
+}
+
+.flex3{
+  display: flex;
+  justify-content: space-around;
+}
+.text-white{
+  color: #fff;
+}
+.flex-wrap{
+  flex-wrap: wrap;
+}
+.justify__content__space{
+  justify-content: space-between;
+}
+.gap-40{
+  gap: 40px;
+  
+}
+.gap-10{
+  gap: 10px;
+}
+.fw-500{
+  font-weight: 500;
+}
+.fw-bold{
+  font-weight: bold;
+}
+.mar-bot-8{
+  margin-bottom: 8px;
+}
+.mar-bot-15{
+  margin-bottom: 15px;
+}
+.mar-top-15{
+  margin-top: 15px;
+}
+.flex-col{
+  display: flex;
+  flex-direction: column;
+}
+.text-avg{
+  font-size: 1.3rem;
+}
+.text-sm{
+  font-size: 0.9rem;
+}
+.flex-no{
+  display: flex;
+}
+
+@media only screen and (max-width:992px){
+  
+
+}
+@media only screen and (max-width:768px){
+  .ipad-align-center{
+    align-items: center;
+  }
+  .ipad-justify-center{
+    justify-content: center;
+  }
+  .mb-text-sm{
+    font-size: 0.7rem;
+  }
+  .mb-text-avg{
+    font-size: 1rem;
+  }
+
+}
+@media only screen and (max-width:576px){
+  
+
+}

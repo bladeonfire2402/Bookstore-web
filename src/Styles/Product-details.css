@@ -1,0 +1,15 @@
+
+
+.star__rate span i{
+    color: brown;
+}
+.product__details .price{
+    font-size: 1.4rem;
+}
+.product__details__img img{
+    width: 550px;
+    height: 400px;
+}
+.buy__button{
+    width: 30%;
+}

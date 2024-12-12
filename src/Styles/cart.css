@@ -1,0 +1,26 @@
+.table{
+    width: 100%;
+    border: 1px solid black;
+    padding: 30px;
+}
+
+.table tr td img{
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+.table tr td{
+    text-align: center;
+}
+td i{
+    cursor: pointer;
+}
+td{
+    color: var(--primary-color);
+}
+.total__amount{
+    padding-top: 20px;
+}
+.col-2{
+    column-span: 2;
+}
